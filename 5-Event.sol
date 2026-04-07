@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
 /*
     todo 1 : EventContract 생성 후 string, uint256 타입의 값을 받는 이벤트 myEvent 생성
     todo 2 : 위에서 생성한 이벤트를 발생시키는 함수 작성 후 호출

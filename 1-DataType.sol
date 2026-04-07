@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
 /*
     todo : DataType 컨트랙트 생성 후 솔리디티의 기본 데이터 타입의 상태변수 선언 -> .sol 파일 컴파일 -> 컨트랙트 배포 및 호출 진행
          : 솔리디티 기본 데이터 타입은 길이가 정해져 있습니다 -> 범위를 벗어나는 값 지정 후 오류 확인

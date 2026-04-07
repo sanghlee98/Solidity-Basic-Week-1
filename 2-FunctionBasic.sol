@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
 /*
     todo 1-1 : MyFunction 컨트랙트 생성 후 부호없는 정수 값을 가지는 상태변수 a를 선언
     todo 1-2 : 인자 및 리턴값 없는 함수 생성하여 호출될 때 마다 a의 값을 1씩 증가시키는 함수 작성

@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
 /*
     todo 1 : ViewPure 컨트랙트 생성 후 부호없는 정수 값을 가지는 상태변수 a를 선언
     todo 2 : view 함수 생성 후 상태변수 a 값 참조 성공 및 변경 실패 확인

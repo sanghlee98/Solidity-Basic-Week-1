@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
 /*
     todo 1 : PayableConstructor 컨트랙트 생성 후 빈 constructor 생성 및 payable 키워드 작성
     todo 2 : 인자로 받은 address의 ETH 잔액을 리턴하는 getBalance() 함수 생성 및 PayableConstructor 컨트랙트의 잔액 확인

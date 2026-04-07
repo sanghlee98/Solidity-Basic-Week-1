@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
 /*
     todo 1 : OriginContract 컨트랙트 생성 후 string 값을 리턴하는 public 함수 생성
     todo 2 : string 값을 리턴하는 external 함수 생성

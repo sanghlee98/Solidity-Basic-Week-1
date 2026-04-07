@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
 /*
     todo 1 : SendETH 컨트랙트 생성 및 call을 이용하여 ETH를 전송하는 함수 생성
     todo 2 : 인자로 받은 address의 ETH 잔액을 리턴하는 getBalance() 함수 생성 및 1번의 ETH 전송 후 잔액 확인

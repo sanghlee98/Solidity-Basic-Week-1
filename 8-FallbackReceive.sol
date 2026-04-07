@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
+
 /*
     todo 1 : FallbackReceive 컨트랙트 생성 후 address, string 타입의 값을 받는 이벤트 MyEvent 생성
     todo 2 : MyEvent 발생시키는 receive() 생성
@@ -22,6 +25,11 @@ contract FallbackReceive {
     fallback() external payable  {
         emit MyEvent(msg.sender, msg.value,"Fallback called");
     }
+
+    // extra : call 로 외부 컨트랙트의 함수 호출 성공 예시
+    // function myFunction(uint256 _value) public pure returns (uint256) {
+    //     return _value * 2;
+    // }
 }
 
 
@@ -59,4 +67,18 @@ contract MyContract {
         if (sent) { return "ETH Transfer Success"; } 
         else { return "ETH Transfer Failure"; }
     }
+
+    // extra : call 로 외부 컨트랙트의 함수 호출 성공 예시
+    // function callMyFunction(address _target, uint256 _input) public returns (uint256) {
+    //     (bool success, bytes memory data) = _target.call(
+    //         abi.encodeWithSignature("myFunction(uint256)", _input)
+    //     );
+
+    //     if (success) { 
+    //         uint256 result = abi.decode(data, (uint256));
+    //         return result;
+    //     } else { 
+    //         return 0; 
+    //     }
+    // }
 }
